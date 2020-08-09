@@ -14,7 +14,7 @@ How about the options?
 
 # Making the image
 
-If you recall, your raspberry pi os had several files called 'kernel.img' and 'kernel8.img', and others. The last step is to convert our elf file into one of these. Use
+Your raspberry pi os has several files called 'kernel.img' and 'kernel8.img' located in its boot sector. These are used to get your pi up and running when you power it on, and the files named 'kernelxx.img' are the ones that contain the OS instructions. The last step is to convert our elf file into one of these. Use
 
 `../../gnu-tools/bin/aarch64-none-elf-objcopy kernel8.elf -O binary kernel8.img`
 
