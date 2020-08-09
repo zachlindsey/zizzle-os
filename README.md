@@ -9,3 +9,4 @@ I'm assuming that if you're reading this, you...
 * want to make a simple OS on the raspberry pi 4
 * want to learn some assembly in writing this os
 * know a little bit about programming already
+* have access to a bash-like shell (if you are using windows like me, use Cygwin)
